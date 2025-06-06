@@ -12,7 +12,10 @@ namespace ErrorsAndExaceptions
         static void Main(string[] args)
         {
             NoException nc = new NoException();
-            nc.NoExecptionCode();
+            //nc.NoExecptionCode();
+
+            NotClearErr nce = new NotClearErr();
+            nce.NotClearCode();
         }
     }
 }
