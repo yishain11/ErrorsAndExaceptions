@@ -1,4 +1,5 @@
 ﻿using ErrorsAndExaceptions.NoExceptions;
+using ErrorsAndExaceptions.WithExceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,10 @@ namespace ErrorsAndExaceptions
             //nc.NoExecptionCode();
 
             NotClearErr nce = new NotClearErr();
-            nce.NotClearCode();
+            //nce.NotClearCode();
+
+            BasicTryCatch btc = new BasicTryCatch();
+            btc.BasicTryCatchCode();
         }
     }
 }
