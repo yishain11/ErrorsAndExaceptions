@@ -19,7 +19,10 @@ namespace ErrorsAndExaceptions
             //nce.NotClearCode();
 
             BasicTryCatch btc = new BasicTryCatch();
-            btc.BasicTryCatchCode();
+            //btc.BasicTryCatchCode();
+
+            ClearErr ce = new ClearErr();
+            ce.ClearErrCode();
         }
     }
 }
